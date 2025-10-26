@@ -1,0 +1,9 @@
+# Sistema/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
+
+# build (se um dia usar)
+dist/
+build/
