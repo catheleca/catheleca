@@ -214,7 +214,7 @@
                <div class="col-md-7 col-sm-10">
                     <!-- CONTACT FORM HERE -->
                     <div class="wow fadeInUp" data-wow-delay="0.4s">
-                        <form id="contact-form" action="#" method="get">
+                        <!--<form id="contact-form" action="#" method="get">
                               <div class="col-md-6 col-sm-6">
                                    <input type="text" class="form-control" name="name" placeholder="Nome" required="">
                               </div>
@@ -227,7 +227,29 @@
                               <div class="col-md-offset-8 col-md-4 col-sm-offset-6 col-sm-6">
                                    <button id="submit" type="submit" class="form-control" name="submit">Enviar</button>
                               </div>
-                        </form>
+                        </form> -->
+                         <form id="contact-form" action="https://formsubmit.co/cathemoraes@gmail.com" method="POST">
+            
+                         <!-- Configurações do FormSubmit (campos ocultos) -->
+                         <input type="hidden" name="_subject" value="Nova mensagem do site!">
+                         <input type="hidden" name="_captcha" value="false">
+                         <input type="hidden" name="_template" value="table">
+                         <input type="hidden" name="_next" value="https://catheleca.com/obrigado.html">
+                         
+                         <!-- Campos visíveis -->
+                         <div class="col-md-6 col-sm-6">
+                              <input type="text" class="form-control" id="name" name="name" placeholder="Digite seu nome" required="">
+                         </div>
+                         <div class="col-md-6 col-sm-6">
+                              <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                         </div>
+                         <div class="col-md-12 col-sm-12">
+                              <textarea class="form-control" rows="5" name="message" placeholder="Messagem" required=""></textarea>
+                         </div>
+                         <div class="col-md-offset-8 col-md-4 col-sm-offset-6 col-sm-6">
+                              <button id="submit" type="submit" class="form-control" name="submit">Enviar</button>
+                         </div>
+                    </form>
                     </div>
                </div>
 
