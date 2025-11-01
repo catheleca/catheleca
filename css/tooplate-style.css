@@ -318,7 +318,7 @@ a:hover, a:active, a:focus {
   font-size: 25px;
 }
 
-.work-thumb-overlay {
+.-thumb-overlay {
   position: absolute;
   background: #7682cc;
   border-radius: 5px;
